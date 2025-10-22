@@ -1,4 +1,4 @@
-# Scriptara (DEV)
+# Scriptara
 Learn HTML, CSS and JavaScript with ease!
 
 # To Do
