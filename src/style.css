@@ -232,7 +232,7 @@ footer .github {
 }
 
 /* MEDIA STYLES IF SCREEN IS TOO SMALL (-> VIDEO: https://www.youtube.com/watch?v=euG1_R2o_Bg) */
-@media only screen and (max-width: 1500px) {
+@media only screen and (max-width: 2000px) {
     .container.hero .hero-left .title {
         font-size: 5vw;
     }
@@ -251,7 +251,7 @@ footer .github {
     }
 }
 
-@media only screen and (max-width: 1080px) {
+@media only screen and (max-width: 1500px) {
     .container.hero .hero-left .title {
         font-size: 45px;
         text-align: center;
@@ -298,7 +298,7 @@ footer .github {
     }
 }
 
-@media only screen and (max-width: 470px) {
+@media only screen and (max-width: 740px) {
     footer .footer-left a.html,
     footer .footer-left a.css,
     footer .footer-left a.js {
