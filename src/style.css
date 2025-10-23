@@ -17,6 +17,7 @@ header {
     padding: 10px;
     box-sizing: border-box;
     position: sticky;
+    top: 0;
 }
 
 header .logo img { 
