@@ -278,4 +278,12 @@ footer .github {
         flex-direction: column;
     }
 }
+
+@media only screen and (max-width: 740px) {
+    footer .footer-left a.html,
+    footer .footer-left a.css,
+    footer .footer-left a.js {
+        display: none
+    }
+}
 /* MEDIA STYLES END */
