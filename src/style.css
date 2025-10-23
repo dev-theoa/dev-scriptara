@@ -279,9 +279,9 @@ footer .github {
         justify-content: center;
     }
 
-    header {
+    /* header {
         padding: 16px 10px;
-    }
+    } */
 
     header .links a.html,
     header .links a.css,
@@ -299,17 +299,5 @@ footer .github {
 
     footer {
         flex-direction: column;
-    }
-}
-
-@media only screen and (max-width: 740px) {
-    footer .footer-left a.html,
-    footer .footer-left a.css,
-    footer .footer-left a.js {
-        display: none
-    }
-    
-    .container.intro .box .box-left img {
-        width: 150px;
     }
 }
