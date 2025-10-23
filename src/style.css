@@ -86,6 +86,13 @@ footer a:hover {
     border-bottom: 0.5mm solid whitesmoke;
 }
 
+footer a.logo:hover {
+    border: none;
+}
+
+footer .github {
+    margin: 0;
+}
 /* FOOTER END*/
 
 /* HERO STYLES */
@@ -171,6 +178,7 @@ footer a:hover {
     border-radius: 5mm;
     padding: 30px;
     box-sizing: border-box;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
 }
 
 .container.intro .box .box-left, 
@@ -218,9 +226,86 @@ footer a:hover {
 }
 /* CODE BLOCK END */
 
-
-
 .space {
     height: 100%;
     margin: 10% 0;
+}
+
+/* MEDIA STYLES IF SCREEN IS TOO SMALL (-> VIDEO: https://www.youtube.com/watch?v=euG1_R2o_Bg) */
+@media only screen and (max-width: 1000px) {
+    .container.hero .hero-left .title {
+        font-size: 5vw;
+    }
+
+    .container.hero .hero-right img {
+        width: 35vw;
+    }
+
+    .container.hero .hero-left .caption {
+        font-size: 1.6vw;
+    }
+
+    .container.hero .hero-left .links a {
+        font-size: 1.6vw;
+        padding: 0.7vw 1.85vw;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .container.hero .hero-left .title {
+        font-size: 45px;
+        text-align: center;
+    }
+
+    .container.hero .hero-right {
+        display: none
+    }
+
+    .container.hero .hero-left .caption {
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .container.hero .hero-left .links a {
+        font-size: 14px;
+        padding: 7px 20px;
+    }
+
+    .container.hero .hero-left .links {
+        justify-content: center;
+    }
+
+    header {
+        padding: 16px 10px;
+    }
+
+    header .links a.html,
+    header .links a.css,
+    header .links a.js {
+        display: none;
+    }
+
+    .container.intro .box .box-left img {
+        width: 200px;
+    }
+
+    .container.intro .box .box-right .title {
+        font-size: 30px;
+    }
+
+    footer {
+        flex-direction: column;
+    }
+}
+
+@media only screen and (max-width: 470px) {
+    footer .footer-left a.html,
+    footer .footer-left a.css,
+    footer .footer-left a.js {
+        display: none
+    }
+    
+    .container.intro .box .box-left img {
+        width: 150px;
+    }
 }
