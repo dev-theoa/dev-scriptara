@@ -37,7 +37,7 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           # Upload repository path (use '.' to upload entire repository)
-          path: | 
+          path: |
             src
             assets
       - name: Deploy to GitHub Pages
