@@ -1,7 +1,7 @@
 # Scriptara
 Learn HTML, CSS and JavaScript with ease!
 
-# Files
+## Files
 ```
 dev-scriptara
 ├─ assets
