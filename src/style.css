@@ -138,23 +138,27 @@ footer .github {
     border: 0.5mm solid whitesmoke;
     border-radius: 25px;
     padding: 7px 20px;
+    transition: all 0.2s;
 }
 
 .container.hero .links .primary {
     background-color: #007acc;
     color: whitesmoke;
-    border: none;
+    border-color: #007acc;
     border-radius: 25px;
     margin-right: 20px;
 }
 
 .container.hero .links .primary:hover {
     background-color: #005F99;
+    border-color: #005F99;
+    transform: scale(1.02);
 }
 
 .container.hero .links .secondary:hover {
     background-color: whitesmoke;
     color: #333;
+    transform: scale(1.03);
 }
 /* HERO END */
 
